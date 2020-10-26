@@ -5,9 +5,9 @@ def mainMenu():
 
     k.add_button('Информация о пользователе')
     k.add_line()
-    k.add_button('Мониторинг друзей')
+    k.add_button('Мониторинг друзей', color=VkKeyboardColor.NEGATIVE)
     k.add_line()
-    k.add_button('Возможные дружеские связи')
+    k.add_button('Возможные дружеские связи', color=VkKeyboardColor.NEGATIVE)
 
     return k.get_keyboard()
 

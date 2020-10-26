@@ -1,1 +1,2 @@
-TOKEN = ""
+BOT_TOKEN = ""
+VK_TOKEN = ""
